@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Coding Project</title>
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+    <header>
+        <img src="assets/revo.webp" alt="logo" id="logo">
+            <ul class="navigation">
+                <li><button type="button" onclick="home()">home</button></li>
+                <li><button type="button" onclick="profil()">our profil</button></li>
+                <li><button type="button" onclick="messageus()">message us</button></li>
+            </ul>
+    </header>
+    <P id="demo"></P>
+<script src="js/script.js">
+</script>
+
+    <div class="our-office">
+        <div>
+            <div class="circle-img" style="background-image: url(assets/maxresdefault.jpg);">
+            </div>
+             <h4>kota pare pare</h4>
+             <details>
+                <Summary>informasi kota pare pare</Summary>
+                Kota Parepare terletak di sebuah teluk yang menghadap ke Selat Makassar. Di bagian utara berbatasan dengan Kabupaten Pinrang, di sebelah timur berbatasan dengan Kabupaten Sidenreng Rappang dan di bagian selatan berbatasan dengan Kabupaten Barru. Meskipun terletak di tepi laut tetapi sebagian besar wilayahnya berbukit-bukit.
+Dengan luas 99.33 km2, Kota Parepare terbagi atas 3 kecamatan yaitu kecamatan Bacukiki dengan luas sekitar 79,70 km2 atau 80% total luas wilayah Kota Parepare dengan 9 kelurahan, kecamatan Ujung dengan luas 11,30 km2 terdiri atas 5 kelurahan dan kecamatan Soreang seluas 8,33 km2 dengan 7 kelurahan.
+             </details>
+        </div>
+        <div>
+            <div class="circle-img" style="background-image: url(assets/images\ \(1\).jpeg);">
+            </div>
+             <h4>kota palopo</h4>
+             <details>
+             <summary>informasi kota palopo</summary>
+             Menapaki perjalanan panjang yang cukup melelahkan, dengan jarak tempuh sekitar 362 Km dari Kota Makassar Propinsi Sulawesi Selatan , bukanlah hal sia-sia untuk menikmati keramahan khas sebuah kota yang menampakkan citranya melalui bentuk Kota Tujuh Dimensi yang terletak diujung Propinsi Sulawesi Selatan dengan luas wilayah 247,52 km2 , yang berbatasan dengan Kabupaten Luwu dibagian Selatan dan Utara, Kabupaten Tanah Toraja dibagian Barat dan Teluk Bone dibagian Timur.
+            </details>
+        </div>
+    </div>
+    <fieldset>
+        <legend>message us</legend>
+    <div class="inquiry-box">
+        <from class="inquiry-from">
+            <label>nama</label>
+            <input type="text" id="nama">
+
+            <label>tanggal lahir</label>
+            <input type="date" id="tanggal lahir">
+
+            <label for="gender" >jenis kelamin</label>
+            <select id="gender">
+                <option >laki laki</option>
+                <option >perempuan</option>
+            </select>
+            <label>pesan</label>
+            <textarea name="biografi" id="pesan"></textarea>
+
+            <p>
+                <input type="submit" value="Daftar" onclick="kirim()" >
+            </p>
+        </from>
+        <div id="keluaran">
+        </div>
+    </div>
+    </fieldset> 
+    <footer>
+        <h6>by muh alfauzan e</h6>
+    </footer>      
+</body>
+</html>
